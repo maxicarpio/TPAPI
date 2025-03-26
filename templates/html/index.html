@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scholarship center</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/fonts.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Scholarship center</h1>
+        </header>
+        <div class="head">
+            <p>#1 WORLD SCHOLARSHIP CENTER</p>
+            <h2>Building tomorrow's leaders, one scholarship at a time.</h2>
+            <p class="quote">"The world is a book, and those who do not travel read only one page." - Saint Augustine</p>
+            <a href="#" class="learn-more">Apply now</a>
+            <img src="../images/girl.png">
+        </div>
+        <div class="container">
+            <h2>Popular scholarships</h2>
+            <a href="#">Classify</a>
+            <div class="box-container">
+                {% for scholarship in scholarships %}
+                <div class="box">
+                    <img src="{{ scholarship.image }}">
+                    <h2>
+                        {{ scholarship.name }}
+                    </h2>
+                    <p>
+                        ID: {{ scholarship.id }}
+                        <br>
+                        {{ scholarship.description }}
+                        <br>
+                        Price: {{ scholarship.price }}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>
