@@ -25,15 +25,13 @@
             <div class="box-container">
                 {% for scholarship in scholarships %}
                 <div class="box">
-                    <img src="{{ scholarship.image }}">
+                    <img src="..{{ scholarship.image }}">
                     <h2>
                         {{ scholarship.name }}
                     </h2>
                     <p>
-                        ID: {{ scholarship.id }}
-                        <br>
                         {{ scholarship.description }}
-                        <br>
+                        <br><br>
                         Price: {{ scholarship.price }}
                     </p>
                 </div>
