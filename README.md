@@ -24,7 +24,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
-*Endpoints: 
+* Endpoints: 
+
 ```/scholarships (GET)```:Obtiene todas las becas.
 ```/scholarships/{id} (GET)```: Obtiene una beca por su ID.
 ```/scholarships (POST)```: Crea una nueva beca.
