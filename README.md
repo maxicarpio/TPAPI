@@ -1,6 +1,7 @@
 # API Rest for Scholarship Data Center
 
 This API allows you to post, modify, delete and get information from a SQLite database related to scholarships published on a web page.
+This API allows you to post, modify, delete and get information from a SQLite database related to scholarships published on a web page.
 
 ## Instalation
 
