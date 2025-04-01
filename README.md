@@ -1,10 +1,10 @@
 # API Rest for Scholarship Data Center
 
-This API allows you to post, modify, delete and get information from a SQLite database.
+This API allows you to post, modify, delete and get information from a SQLite database related to scholarships published on a web page.
 
 ## Instalation
 
-Check out the requirements in requirements.txt and intall all the libraries to execute the program succesfully.
+Check out the requirements in requirements.txt and install all the libraries to execute the program successfully.
 
 ```bash
 pip install -r requirements.txt
